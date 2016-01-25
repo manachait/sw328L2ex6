@@ -1,0 +1,16 @@
+<widget id="com.example.navbar" version="0.0.1">
+        <name>jM Navbar</name>
+        <description>
+            A sample of Navbar application.
+        </description>
+        <author email="manachai_toa@utcc.ac.th" href="http://www.utcc.ac.th">
+            University of the Thai Chamber of Commerce
+        </author>
+        <content src="index.html" />
+		<icon src="icon.png" platform="android" qualifier="ldpi" />
+		<icon src="icon.png" platform="android" qualifier="mdpi" />
+		<icon src="icon.png" platform="android" qualifier="hdpi" />
+		<icon src="icon.png" platform="android" qualifier="xhdpi" />
+		<icon src="icon.png" platform="android" qualifier="xxhdpi" />
+        <access origin="*" />
+</widget>
