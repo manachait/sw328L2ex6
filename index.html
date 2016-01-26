@@ -9,7 +9,7 @@
 </script>
 </head>
 <body>
-<div data-role="page" id="home">
+<div data-role="tabs" id="tabs">
     <div data-role="header"  data-theme="b">
         <h1>Basic Navbar</h1>
     </div>
@@ -20,22 +20,10 @@
             <li><a href="#about" data-icon="info">About</a></li>
         </ul>
     </div>
-    <div role="main" class="ui-content">
+    <div id="home" class="ui-body ui-content ui-btn-active">
             This is Home Page.
     </div>
-</div>
-<div data-role="page" id="about">
-    <div data-role="header"  data-theme="b">
-        <h1>Basic Navbar</h1>
-    </div>
-    <div data-role="navbar" data-iconpos="top">
-        <ul>
-            <li><a href="#home" data-icon="home">Home</a></li>
-            <li><a href="#about" data-icon="info"  class="ui-btn-active">
-                About</a></li>
-        </ul>
-    </div>
-    <div role="main" class="ui-content">
+    <div id="about" class="ui-body ui-content">
             This is About Page.
     </div>
 </div>
